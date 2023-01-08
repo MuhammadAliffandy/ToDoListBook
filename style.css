@@ -217,7 +217,7 @@ header{
 
 
 .trash-button {
-    background: url('../assets/trash-outline.svg');
+    background: url('./assets/trash-outline.svg');
     background-size:contain;
     width: 18px;
     height: 18px;
@@ -226,13 +226,13 @@ header{
 }
 
 .trash-button:hover {
-    background: url('../assets/trash-fill.svg');
+    background: url('./assets/trash-fill.svg');
     background-size: contain;
 }
 
 
 .selesai-button {
-    background: url('../assets/check-outline.svg');
+    background: url('./assets/check-outline.svg');
     background-size:contain;
     width: 18px;
     height: 18px;
@@ -248,7 +248,7 @@ header{
 }
 
 .selesai2-button {
-    background: url('../assets/check-solid.svg');
+    background: url('./assets/check-solid.svg');
     background-size:contain;
     width: 18px;
     height: 18px;
@@ -258,7 +258,7 @@ header{
 }
 
 .selesai2-button:hover {
-    background: url('../assets/check-solid.svg');
+    background: url('./assets/check-solid.svg');
     background-size: contain;
 
 }
