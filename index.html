@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h2>BookSelf Apps</h2>
+        <p>List Buku anda agar tertata rapi dan mudah diingat</p>
+    </header>
+    <main>
+        <section class="section1">
+            <form class="bookForm">
+                <h4>Masukkan Buku</h4>
+                <input id='Judul' placeholder="Masukkan Judul Buku..." type="text" required>
+                <input id='Author' placeholder="Masukkan Penulis Buku..." type="text" required>
+                <input id='Year' placeholder="Masukkan Tahun Buku..." type="date" required>
+                <div><input type="checkbox" id="selesai"><label>Selesai Dibaca</label></div>
+                <button type="submit" id="insert">Masukkan Buku</button>
+            </form>
+        </section>
+        <section class="section2">
+            <div class="bookNote">
+                <div class="head2">
+                    <h2>Book Note</h2>
+                    <p>Lihat dan Kelola data buku yang telah anda masukkan!</p>
+                </div>
+                <div class="search">
+                    <input id="searchBook" type="search" placeholder="Cari buku disini...">
+                    <button id="searchTombol" name="search" type="submit">search</button>
+                </div>
+                <div class="listBook">
+                    <div  class="Belum" >
+                        <h1>Belum Dibaca</h1>
+                        <div id="listBelum">
+                        </div>
+                    </div>
+                    <div  class="Selesai">
+                        <h1>Selesai Dibaca</h1>
+                        <div id="listSelesai">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script src="index.js"></script>
+</html>
